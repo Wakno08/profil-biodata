@@ -1,0 +1,91 @@
+project-folder/
+│
+├── index.html
+├── css/
+│   └── style.css
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Biodata</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Section 1: Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Header</a></li>
+                <li><a href="#">Biodata</a></li>
+                <li><a href="#">Portofolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section 2: Judul dan Gambar -->
+    <section class="intro">
+        <div class="left">
+            <h1>Selamat Datang di Website Saya</h1>
+            <p>Website ini berisi informasi biodata dan portofolio sederhana.</p>
+        </div>
+        <div class="right">
+            <img src="photo.jpg" alt="Foto Profil">
+        </div>
+    </section>
+
+    <!-- Section 3: Biodata -->
+    <section class="biodata">
+    <h2>About Me</h2>
+    <p>Silakan isi biodata Anda:</p>
+    <form class="grid-box">
+        <div class="box">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Isi nama lengkap">
+        </div>
+        <div class="box">
+            <label for="alamat">Alamat</label>
+            <input type="text" id="alamat" name="alamat" placeholder="Isi alamat">
+        </div>
+        <div class="box">
+            <label for="tempatlahir">Tempat Lahir</label>
+            <input type="text" id="tempatlahir" name="tempatlahir" placeholder="Isi tempat lahir">
+        </div>
+        <div class="box">
+            <label for="contact">Contact</label>
+            <input type="text" id="contact" name="contact" placeholder="Isi no HP atau email">
+        </div>
+        <div class="box">
+            <label for="hobi">Hobi</label>
+            <input type="text" id="hobi" name="hobi" placeholder="Isi hobi">
+        </div>
+        <div class="box">
+            <label for="jurusan">Jurusan</label>
+            <input type="text" id="jurusan" name="jurusan" placeholder="Isi jurusan">
+        </div>
+    </form>
+</section>
+
+
+    <!-- Section 4: Portofolio -->
+    <section class="portfolio">
+        <h2>Portofolio</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="photo1.jpg" alt="Project 1">
+                <p>Project 1<br>Desain Website</p>
+            </div>
+            <div class="card">
+                <img src="photo2.jpg" alt="Project 2">
+                <p>Project 2<br>Website Sekolah</p>
+            </div>
+            <div class="card">
+                <img src="photo3.jpg" alt="Project 3">
+                <p>Project 3<br>Dashboard Aplikasi</p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
